@@ -1,6 +1,6 @@
 Course Project
-author: rumpole82
 ==============
+## author: rumpole82
 
 ###An R script called run_analysis.R was created to analyse data from the following data set:
 
