@@ -32,19 +32,19 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-### I used R commands, as well the dplyr and tidyr packages, to write the program as outlined below: 
+###These objectives were fulfilled as outlined below: 
 
-###1. I used cbind() and rbind() to create one big data set from the train and test data sets, after reading the data into R using read.table() and assigning appropriate column names to the data using the names() function and the concatenate function c().
+1. I used cbind() and rbind() to create one big data set from the train and test data sets, after reading the data into R using read.table() and assigning appropriate column names to the data using the names() function and the concatenate function c().
 
-###2. I used pattern matching and replacement and subsetting functions (grep, [ ) to extract only the measurements on the mean and standard deviation for each measurement.
+2. I used pattern matching and replacement and subsetting functions (grep, [ ) to extract only the measurements on the mean and standard deviation for each measurement.
 
-###3. I used subsetting and unlist() to name the activities in the data set.
+3. I used subsetting and unlist() to name the activities in the data set.
 
-###4. I used the colnames() function to appropriately label the data set with descriptive variable names.
+4. I used the colnames() function to appropriately label the data set with descriptive variable names.
 
-###5. I used gather(), group_by(), summarize(), and %>% to create the second tidy data set with the average of each variable for each activity and each subject.
+5. I used gather(), group_by(), summarize(), and %>% from the dplyr and tidyr packages to create the second tidy data set with the average of each variable for each activity and each subject.
 
-###Lastly, I used the write.table() function to write the tidydata.txt output file for my repo.
+Lastly, I used the write.table() function to write the tidydata.txt output file for my repo.
 
 
 
